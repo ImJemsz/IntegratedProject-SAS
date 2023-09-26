@@ -44,7 +44,7 @@
 
 ![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/0533885f-59a6-4011-b588-06934e421952)
  
-6. **User List** → ที่ nav bar ด้านข้างสามารถกดเปลี่ยนดู User List ได้
+6. **User List** → ที่ nav bar ด้านข้างสามารถกดเปลี่ยนดู User List ได้ ซึ่งหน้านี้จะแสดง Username, Name, Eamil, Role, CreatedOn(วันเวลาที่สร้าง), UpdatedOn(วันเวลาที่มีการแก้ไขข้อมูล user นี้ล่าสุด)
 <br>
 
 ![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/f77d350b-6eeb-4154-aeae-31ac6922bc30)
@@ -74,5 +74,40 @@
 <br>
 
 ![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/a1107d62-3130-4bf5-b336-fabe4609e40a)
+
+→ กด Save เพื่อบันทึกข้อมูลและให้ระบบตรวจสอบข้อมูล หรือจะกด Cancel เพื่อยกเลิกการเพิ่ม user <br>
+→ **Feature นี้จะเป็นตัวช่วยเตือน ให้ทำการตรวจสอบข้อมูลให้ถูกต้องก่อนเพิ่มข้อมูลเข้าไปใน ฐานข้อมูล**
+
+8. **Edit User** → เป็นการแก้ไข ข้อมูลของ user หากการแก้ไขเกิดไปซ้ำกับข้อมูลที่อยู่ในฐานข้อมูลก็จะแจ้งเตือนออก และต้องแก้ฉะนั้นจะไม่สามารถบันทึกการแก้ไขได้ หรือสามารถกด Cancel เพื่อยกเลิกการแก้ไขก็ได้เช่นกัน
+<br>
+
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/bebdca44-8c3b-41c8-af67-3a407800724e)
+
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/0864f04a-426c-46c6-928b-d85d6bb89a59)
+
+9. **Delete User** → กดเพื่อทำการลบ User ก็จะมีการขึ้นมา confirm เพื่อยืนยันการลบก่อนเหมือนกันกับ การลบ Announcement
+<br>
+
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/7813d12a-759e-4ef8-8880-3697b16c0cf4)
+
+10. **Match Password** → เป็นการทดลองการ Login ของ User ซึ่งจะตรวจสอบทั้ง Username และ Password ว่าถูกต้องหรือไม่
+<br>
+
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/ae615300-04d7-4e95-b29a-9173d83c7b4d)
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/2b95e95a-6809-42d6-aa94-2644a64b0ae1)
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/1083e631-b1e2-4144-ace7-67c84507de0d)
+
+
+> Client Features
+1. **Active Announcements** → แสดง การประกาศ ที่ยังไม่หมดเวลาประกาศ และมีการเปิดแสดงให้ client เห็นจาก admin
+<br>
+
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/6b8a6d0e-8194-48ed-9e40-844716f583d9)
+
+2. **Close Announcement** → แสดงการประกาศที่ปิดไปแล้ว เนื่องจากเลยวันกำหนด
+<br>
+
+![image](https://github.com/ImJemsz/IntegratedProject-SAS/assets/145842063/36b63557-c032-432b-819e-23f48d5e7850)
+
 
 
